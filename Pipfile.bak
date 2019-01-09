@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+python-dotenv = "*"
+
+[packages]
+flask = "1.0.2"
+flask-sqlalchemy = "2.3.2"
+flask-login = "0.4.1"
+python-freeipa = "0.2.1"
+flask-wtf = "0.14.2"
+python-ldap = "==3.1.0"
+bootstrap-flask = "*"
+flask-moment = "*"
+
+[requires]
+python_version = "2.7"
